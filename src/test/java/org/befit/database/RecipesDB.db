@@ -1,0 +1,1 @@
+{"id":1,"name":"Some name","ingredients":[{"name":"Cabbage","quantity":10,"unit":"Pieces"},{"name":"Potato","quantity":5,"unit":"Kg"}],"instructions":["Step1","Step2"],"difficulty":"EASY"}

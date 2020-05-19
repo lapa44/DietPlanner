@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.befit.controller.MenuStartController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Button contentDisplay="CENTER" layoutX="350.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchToDiet" prefHeight="50.0" prefWidth="200.0" text="My Weekly Diet" textAlignment="CENTER" />
+            <Button contentDisplay="CENTER" layoutX="350.0" layoutY="109.0" mnemonicParsing="false" onAction="#switchToRecipes" prefHeight="50.0" prefWidth="200.0" text="Browse Recipes" textAlignment="CENTER" />
+            <Button contentDisplay="CENTER" layoutX="350.0" layoutY="213.0" mnemonicParsing="false" onAction="#switchToMyRecipes" prefHeight="50.0" prefWidth="200.0" text="My Recipes" textAlignment="CENTER" />
+            <Button contentDisplay="CENTER" layoutX="350.0" layoutY="300.0" mnemonicParsing="false" onAction="#generateShoppingList" prefHeight="50.0" prefWidth="200.0" text="Generate Shopping List" textAlignment="CENTER" />
+            <Button contentDisplay="CENTER" layoutX="350.0" layoutY="400.0" mnemonicParsing="false" onAction="#openGithub" prefHeight="50.0" prefWidth="200.0" text="Credits" textAlignment="CENTER" />
+            <Button contentDisplay="CENTER" layoutX="350.0" layoutY="500.0" mnemonicParsing="false" onAction="#quit" prefHeight="50.0" prefWidth="200.0" text="Quit" textAlignment="CENTER" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
