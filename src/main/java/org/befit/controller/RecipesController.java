@@ -30,10 +30,10 @@ public class RecipesController implements Initializable {
   @FXML
   TextArea ingredientsList;
 
-  private final ObservableList<Recipe> ls;
+  private final ObservableList<Recipe> recipesObservableList;
 
   public RecipesController() {
-    ls = FXCollections.observableArrayList(testRecipes());
+    recipesObservableList = FXCollections.observableArrayList(testRecipes());
   }
 
   @FXML
@@ -58,7 +58,7 @@ public class RecipesController implements Initializable {
   @Override
   public void initialize(URL url, ResourceBundle resourceBundle) {
     Label placeholderLabel = new Label("Recipes MIA");
-    recipesList.setItems(ls);
+    recipesList.setItems(recipesObservableList);
     recipesList.setPlaceholder(placeholderLabel);
     recipesList.setCellFactory(recipeListView -> new ListCell<>() {
       @Override

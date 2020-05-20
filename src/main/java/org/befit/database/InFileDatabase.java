@@ -44,7 +44,7 @@ public class InFileDatabase implements Database {
   public Recipe removeRecipeById(Long id) throws IOException {
     Recipe recipeToRemove = getRecipeById(id);
     fileHelper.deleteLineFromFile(objectMapper.writeValueAsString(recipeToRemove),
-        "Recipes.db");
+        "RecipesDB.db");
     return recipeToRemove;
   }
 
