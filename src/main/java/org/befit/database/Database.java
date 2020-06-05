@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import org.befit.model.Recipe;
 
 public interface Database {
